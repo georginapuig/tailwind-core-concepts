@@ -1,16 +1,12 @@
 import './App.css';
-import chatLogo from './img/logo.svg';
+import Fundamentals from './components/Fundamentals';
 
 function App() {
   return (
-    <div className='bg-white max-w-sm mx-auto rounded-xl flex items-center p-6 shadow-lg space-x-4 text-left'>
-      <div className='shrink-0'>
-        <img className='h-12 w-12' src={chatLogo} alt='ChitChat Logo' />
-      </div>
-      <div>
-        <h4 className='font-medium text-black text-lg '>ChitChat</h4>
-        <p className='text-slate-500'>You have a new message!</p>
-      </div>
+    <div>
+      <h1 className='text-xl'>Core Concepts</h1>
+
+      <Fundamentals />
     </div>
   );
 }
