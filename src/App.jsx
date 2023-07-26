@@ -1,4 +1,5 @@
 import './App.css';
+import chatLogo from './img/logo.svg';
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className='chat-notification-logo-wrapper'>
         <img
           className='chat-notification-logo'
-          src='/img/logo.svg'
+          src={chatLogo}
           alt='ChitChat Logo'
         />
       </div>
