@@ -16,6 +16,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --tw-gradient-from: #0c1120 var(--tw-gradient-from-position);
+  --tw-gradient-to: #0c112000 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 a {
@@ -70,4 +74,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.background {
+  background-image: url('./src/img/bg.png');
+  background-size: 125.5rem 100%;
+  height: 28.8125rem;
+  background-color: rgb(15 23 42/1);
 }
