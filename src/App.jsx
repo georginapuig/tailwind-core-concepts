@@ -3,17 +3,13 @@ import chatLogo from './img/logo.svg';
 
 function App() {
   return (
-    <div className='chat-notification'>
-      <div className='chat-notification-logo-wrapper'>
-        <img
-          className='chat-notification-logo'
-          src={chatLogo}
-          alt='ChitChat Logo'
-        />
+    <div className='bg-white max-w-sm mx-auto rounded-xl flex items-center p-6 shadow-lg space-x-4 text-left'>
+      <div className='shrink-0'>
+        <img className='h-12 w-12' src={chatLogo} alt='ChitChat Logo' />
       </div>
-      <div className='chat-notification-content'>
-        <h4 className='chat-notification-title'>ChitChat</h4>
-        <p className='chat-notification-message'>You have a new message!</p>
+      <div>
+        <h4 className='font-medium text-black text-lg '>ChitChat</h4>
+        <p className='text-slate-500'>You have a new message!</p>
       </div>
     </div>
   );
